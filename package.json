@@ -5,6 +5,11 @@
   "workspaces": [
     "packages/*"
   ],
+  "keywords": [
+    "vue",
+    "img",
+    "indexedb"
+  ],
   "type": "module",
   "scripts": {
     "dev": "npx vite .\\play",
@@ -13,7 +18,8 @@
   "files": [
     "dist/*"
   ],
-  "main": "dist/ImgCache-v3.umd.js",
+  "main": "img-cache-v3.js",
+  "module": "img-cache-v3.umd.cjs",
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "@vitejs/plugin-vue-jsx": "^4.0.0",
@@ -21,6 +27,7 @@
     "vite": "^5.2.12",
     "vue": "^3.4.27"
   },
+  "description": "A Vue3 image component with automatic local caching",
   "devDependencies": {
     "lerna": "^8.1.3"
   }
