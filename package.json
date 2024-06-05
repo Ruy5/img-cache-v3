@@ -1,7 +1,7 @@
 {
   "name": "img-cache-v3",
   "private": false,
-  "version": "0.0.2",
+  "version": "1.0.0",
   "workspaces": [
     "packages/*"
   ],
@@ -18,8 +18,8 @@
   "files": [
     "dist/*"
   ],
-  "main": "img-cache-v3.js",
-  "module": "img-cache-v3.umd.cjs",
+  "main": "dist/img-cache-v3.js",
+  "module": "dist/img-cache-v3.umd.cjs",
   "dependencies": {
     "@vitejs/plugin-vue": "^5.0.5",
     "@vitejs/plugin-vue-jsx": "^4.0.0",
