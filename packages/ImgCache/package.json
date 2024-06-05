@@ -1,0 +1,30 @@
+{
+  "name": "imgcache",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Ruy5 <snake.snakeyy@gmail.com>",
+  "homepage": "https://github.com/Ruy5/ImgCache-v3#readme",
+  "license": "ISC",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "type": "module",
+  "files": [
+    "lib"
+  ],
+  "publishConfig": {
+    "registry": "https://registry.npmmirror.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ruy5/ImgCache-v3.git"
+  },
+  "scripts": {
+    "test": "node ./__tests__/ImgCache.test.js"
+  },
+  "bugs": {
+    "url": "https://github.com/Ruy5/ImgCache-v3/issues"
+  }
+}
